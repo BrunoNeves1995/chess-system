@@ -1,10 +1,14 @@
 package application;
 
-import bordgame.entities.Board;
+
+import chessgame.entities.ChessMatch;
 
 public class Program {
     public static void main(String[] args) {
-        Board b = new Board(10,10);
+        ChessMatch  chessMatch = new ChessMatch();
+
+        UI.printBoard(chessMatch.getPiece());
+
 
 
     }
