@@ -1,4 +1,4 @@
-package bordgame;
+package bordgame.entities;
 
 public class Board {
 
@@ -31,5 +31,14 @@ public class Board {
     }
     public void setColumn(Integer column) {
         this.column = column;
+    }
+
+
+    public  Piece piece(Integer row, Integer column){
+        return pieces[row][column];
+    }
+
+    public  Piece piece(Position position){
+        return pieces[position.getRow()][position.getColumn()];
     }
 }

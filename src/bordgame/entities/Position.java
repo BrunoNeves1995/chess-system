@@ -1,4 +1,4 @@
-package bordgame;
+package bordgame.entities;
 
 public class Position {
     private Integer row;

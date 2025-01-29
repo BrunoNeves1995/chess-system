@@ -1,9 +1,6 @@
 package application;
 
-import bordgame.Board;
-import bordgame.Position;
-
-import javax.swing.border.Border;
+import bordgame.entities.Board;
 
 public class Program {
     public static void main(String[] args) {
