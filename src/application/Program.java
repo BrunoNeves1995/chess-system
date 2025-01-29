@@ -1,11 +1,14 @@
 package application;
 
+import bordgame.Board;
 import bordgame.Position;
+
+import javax.swing.border.Border;
 
 public class Program {
     public static void main(String[] args) {
-        Position position = new Position(3, 5);
+        Board b = new Board(10,10);
 
-        System.out.println(position);
+
     }
 }
